@@ -6,15 +6,15 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "codefalling"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -28,7 +28,7 @@ rss:
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -57,9 +57,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+scheme: Pisces
+
 
 
 
@@ -67,11 +66,21 @@ scheme: Muse
 # Sidebar Settings
 # ---------------------------------------------------------------
 
+# Sidebar, available value:
+#  - post    expand on posts automatically. Default.
+#  - always  expand for all pages automatically
+#  - hide    expand only when click on the sidebar toggle icon.
+#  - remove  Totally remove sidebar including sidebar toggle icon.
+#sidebar: post
+sidebar: always
+#sidebar: hide
+#sidebar: remove
+
 
 # Social links
 # social:
-  #GitHub:
-  #Others:
+#  GitHub:
+#  Others:
 
 # Social Icons
 social_icons:
@@ -84,6 +93,12 @@ social_icons:
 
 # Sidebar Avatar
 #avatar:
+
+
+# Social links
+# social:
+  #GitHub:
+  #Others:
 
 
 # TOC in the Sidebar
@@ -100,20 +115,6 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 
-sidebar:
-  # Sidebar Position, available value: left | right
-  position: left
-  #position: right
-
-  # Sidebar Display, available value:
-  #  - post    expand on posts automatically. Default.
-  #  - always  expand for all pages automatically
-  #  - hide    expand only when click on the sidebar toggle icon.
-  #  - remove  Totally remove sidebar including sidebar toggle icon.
-  display: post
-  #display: always
-  #display: hide
-  #display: remove
 
 
 
@@ -203,14 +204,6 @@ facebook_sdk:
   fb_admin:     #<user_id>
   like_button:  #true
   webmaster:    #true
-
-
-# Show number of visitors to each article.
-# You can visit https://leancloud.cn get AppID and AppKey.
-leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
 
 
 
