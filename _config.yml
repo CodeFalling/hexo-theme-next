@@ -31,6 +31,7 @@ menu:
   about: /about
   archives: /archives
   tags: /tags
+  wiki: /wiki
   #commonweal: /404.html
 
 
@@ -48,6 +49,7 @@ menu_icons:
   tags: tags
   archives: archive
   commonweal: heartbeat
+  wiki: wikipedia-w
 
 
 
